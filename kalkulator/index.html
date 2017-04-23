@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<title>Calculator</title>
+</head>
+
+<body>
+	<div class="frame">
+	<h1>&copy; Konrad Kowalczyk</h1>
+		<section class="screen">
+			<input type="text" value="0" id="display">
+		</section>
+		<section class="numbers">
+			<button type="button" id="7" value="7"  class="numb">7</button>
+			<button type="button" id="8" value="8"  class="numb">8</button>
+			<button type="button" id="9" value="9" class="numb" >9</button>
+			<button type="button" id="4" value="4" class="numb" >4</button>
+			<button type="button" id="5" value="5" class="numb" >5</button>
+			<button type="button" id="6" value="6" class="numb" >6</button>
+			<button type="button" id="1" value="1" class="numb" >1</button>
+			<button type="button" id="2" value="2" class="numb" >2</button>
+			<button type="button" id="3" value="3" class="numb" >3</button>
+			<button type="button" id="0" value="0" class="numb" >0</button>
+			<button type="button" id="comma" value="." onclick="addValueC()">,</button>
+			
+			<button type="button" id="evaluate">=</button>
+
+		</section>
+		<section class="to-do-buttons">
+			<button type="button" id="per" value="%">%</button>
+			<button type="button" id="AC">AC</button>
+			<button type="button" class="sign"value="*">X</button>
+			<button type="button" class="sign" value="/">/</button>
+			<button type="button" id="add" class="sign" value="+">+</button>
+			<button type="button" class="sign" value="-">-</button>
+		</section>
+	</div>
+
+	
+	<script src="javascript/js.js"></script>
+</body>
+
+</html>
